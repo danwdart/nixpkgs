@@ -190,6 +190,15 @@ in
               extraStructuredConfig = {
                 HAMRADIO = lib.kernel.yes;
                 AX25 = lib.kernel.module;
+                AX25_DAMA_SLAVE = lib.kernel.yes;
+                NETROM = lib.kernel.module;
+                ROSE = lib.kernel.module;
+                MKISS = lib.kernel.module;
+                "6PACK" = lib.kernel.module;
+                BPQETHER = lib.kernel.module;
+                BAYCOM_SER_FDX = lib.kernel.module;
+                BAYCOM_SER_HDX = lib.kernel.module;
+                YAM = lib.kernel.module;
               };
             }
           ];
